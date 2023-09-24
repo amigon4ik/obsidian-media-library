@@ -1,0 +1,10 @@
+{
+    "id": "obsidian-media-library",
+    "name": "Obsidian Media Library",
+    "version": "0.0.1",
+    "minAppVersion": "0.15.0",
+    "description": "An obsidian plugin for managing media files.",
+    "author": "amigon4ik",
+    "authorUrl": "https://github.com/amigon4ik/obsidian-media-library",
+    "isDesktopOnly": false
+}
