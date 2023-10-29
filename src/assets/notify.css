@@ -1,0 +1,28 @@
+.notify {
+    background-color: var(--background-secondary);
+    box-shadow: none !important;
+    padding: var(--notify-padding) !important;
+}
+
+.notify.notify-autoclose {
+    --progress-height: 0;
+}
+
+.notify.ml-notify--success {
+    border: var(--border-width) solid var(--background-modifier-success);
+    --notify-success: var(--text-success);
+    --notify-success-progress: var(--text-success);
+}
+
+.notify.ml-notify--success .notify__text {
+    color: var(--text-success);
+}
+
+.notify.ml-notify--error {
+    border: var(--border-width) solid var(--background-modifier-error);
+    --notify-success: var(--text-error);
+}
+
+.notify.ml-notify--error .notify__text {
+    color: var(--text-error);
+}

@@ -1,0 +1,15 @@
+.dropzone {
+    overflow-x: hidden;
+}
+
+.dropzone .dz-preview .dz-image {
+    border-radius: var(--radius-m) !important;
+    overflow: hidden;
+}
+
+.dz-progress,
+.dz-error-message,
+.dz-success-mark,
+.dz-error-mark {
+    display: none;
+}
